@@ -17,7 +17,7 @@ The completed application should meet the following criteria:
 ```
 
 ### Specifications
-```
+
 * Must use semantic HTML elements and proper indentation.
 
 * Use CSS variables to maintain clean and reusable values for a color scheme.
@@ -31,10 +31,10 @@ The completed application should meet the following criteria:
 * Must incorporate a background color using a [CSS linear-gradient function](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient).
 
 * Must incorporate a bit of animation using the [CSS transition property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition).
-```
+
 
 * You and your group can decide which CSS styles and colors you will use to design the application, but the app needs to be a responsive. Use the following images to gain an understanding of how the app should look at different screen sizes, from a layout perspective:
-```
+
   * At size 992px and above, the app should resemble the following image:
 
     ![On a desktop, the application displays three CSS code snippets per row.](./Images/01-app-desktop.png)
@@ -46,7 +46,7 @@ The completed application should meet the following criteria:
   * On mobile devices, anything under 768px, the app should resemble the following image:
 
     ![On a mobile device, the application displays one CSS code snippet per row.](./Images/03-app-mobile.png)
-```
+
 
 ## 💡 Hints
 
