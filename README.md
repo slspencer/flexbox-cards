@@ -1,5 +1,5 @@
 # Module 02 Mini-Project: CSS Snippet Cheat Sheet
-Website URL: https://slspencer.github.io/flexbox-cards/
+Website URL: https://slspencer.github.io/flexbox-cards/Main/index.html
 
 In this activity, you will work with a group to build a webpage that will hold a collection of CSS snippets. What better way to learn CSS than to build a knowledge base of CSS?
 
