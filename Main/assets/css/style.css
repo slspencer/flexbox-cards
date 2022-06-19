@@ -1,3 +1,5 @@
+/* -----globals----- */
+
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
   --outer-space: #33393f;
@@ -29,6 +31,7 @@ body {
   background-color: var(--outer-space);
 }
 
+/* -----headers------ */
 h1,
 h2,
 h3,
@@ -66,16 +69,9 @@ h6 {
   font-size: 1.5rem;
 }
 
+/* -----tags----- */
 p {
   margin-bottom: 1rem;
-}
-
-code {
-  /* Monospace font stack is used for our code blocks to make it look more like code */
-  font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
-    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
-    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
-    monospace;
 }
 
 header {
@@ -95,10 +91,20 @@ main {
   margin: 2rem auto;
 }
 
+code {
+  /* Monospace font stack is used for our code blocks to make it look more like code */
+  font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
+    monospace;
+}
+
 footer {
   margin: 1.5rem;
   text-align: center;
 }
+
+/* -----classes----- */
 
 /* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
 .row {
@@ -130,7 +136,6 @@ footer {
   min-height: 100%;
   padding: 2rem;
   color: var(--heliotrope);
-
   /* outline is like border, but on the outside of the box instead of inside */
   outline: 2px dashed var(--gin);
   outline-offset: -2px;
@@ -181,6 +186,8 @@ footer {
 .code-card pre:active {
   user-select: all;
 }
+
+/* -----if statements----- */
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
 @media screen and (min-width: 768px) {
